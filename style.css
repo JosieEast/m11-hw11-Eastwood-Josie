@@ -14,7 +14,7 @@ body {
 
 /* Header */
 .header {
-  background-color: #a8dadc;
+  background-color: #9bcc80;
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -63,7 +63,7 @@ body {
 .hero {
   padding: 3rem 2rem;
   text-align: center;
-  background-color: #f1faee;
+  background-color: #edf7e1;
   animation: fadeIn 2s ease-in-out;
 }
 
@@ -79,9 +79,67 @@ body {
   margin: 0 auto;
 }
 
+.hero__img {
+  margin-top: 1.5rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Characters Section */
+.characters {
+  background-color: #f4fce8;
+  padding: 2rem;
+  text-align: center;
+}
+
+.characters__title {
+  font-size: 2rem;
+  font-family: 'Josefin Slab', serif;
+  color: #1d3557;
+  margin-bottom: 2rem;
+}
+
+.characters__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.character-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 280px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+}
+
+.character-card__img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.character-card__name {
+  font-size: 1.5rem;
+  color: #2a4f24;
+  margin-top: 0.5rem;
+}
+
+.character-card__desc {
+  font-size: 1rem;
+  color: #555;
+}
+
 /* Footer */
 .footer {
-  background-color: #a8dadc;
+  background-color: #9bcc80;
   padding: 1rem 2rem;
   text-align: center;
   margin-top: 2rem;
@@ -97,7 +155,7 @@ body {
     display: none;
     flex-direction: column;
     width: 100%;
-    background-color: #a8dadc;
+    background-color: #9bcc80;
     margin-top: 1rem;
     padding: 1rem;
   }
